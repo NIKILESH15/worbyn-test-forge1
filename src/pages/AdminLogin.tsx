@@ -18,8 +18,8 @@ const AdminLogin = () => {
     e.preventDefault();
 
     // ✅ CHANGE YOUR CUSTOM CREDENTIALS HERE:
-    const validEmail = 'nikil@gmail.com';
-    const validPassword = '123';
+    const validEmail = 'chakravarthy1977@yahoo.co.in';
+    const validPassword = 'w1o2r3b4y5n';
 
     if (credentials.email === validEmail && credentials.password === validPassword) {
       localStorage.setItem('adminLoggedIn', 'true');
